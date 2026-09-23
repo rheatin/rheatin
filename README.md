@@ -1,75 +1,68 @@
 <div align="center">
 
-<!-- Typing Terminal Header -->
-<a href="https://github.com/rheatin">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=00FF66&center=true&vCenter=true&multiline=true&width=620&height=90&lines=%24+whoami;%3E+Char+ONE+(%40rheatin);%24+status;%3E+Compiling+ideas+into+code...;%24+welcome_to_my_shell" alt="Typing SVG" />
-</a>
+  <h1>Hi, I'm <span style="color: #6366f1;">Char ONE</span> 👋</h1>
+
+  <a href="https://github.com/rheatin">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=16&duration=3200&pause=1200&color=94A3B8&center=true&vCenter=true&width=500&height=40&lines=Software+Engineer+%26+Builder;Crafting+clean%2C+reliable+software;Exploring+new+technologies+%26+ideas" alt="Typing SVG" />
+  </a>
+
+  <p>
+    Focused on building thoughtful, performant tools and systems.
+  </p>
+
+  <p>
+    <a href="https://github.com/rheatin">
+      <img src="https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white" alt="GitHub" />
+    </a>
+  </p>
 
 </div>
 
-```zsh
- rheatin@workstation:~ 
- ❯ cat profile.json
-```
+---
 
-```json
-{
-  "user": "Char ONE",
-  "handle": "rheatin",
-  "focus": ["Automations", "Full-Stack Development", "Tooling"],
-  "environment": "macOS / Zsh / Neovim / VS Code",
-  "status": "Building things that matter 🚀"
-}
-```
+### ✦ Tech & Tools
 
-```zsh
- rheatin@workstation:~ 
- ❯ neofetch --skills
-```
+<div align="center">
 
-<div align="left">
-
-```text
-       /\        OS: Hacker/Developer Linux/macOS
-      /  \       Host: rheatin/rheatin
-     /\   \      Kernel: Git & Open Source
-    /      \     Uptime: Always Coding
-   /   ,,   \    Shell: zsh
-  /   |  |  -\   Languages: Python, TypeScript, JavaScript, Shell, Lua
- /_-''    ''-_\  Editor: Neovim / VS Code
-```
-
-</div>
-
-<p align="left">
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
-  <img src="https://img.shields.io/badge/Shell_Script-121011?style=for-the-badge&logo=gnu-bash&logoColor=white" alt="Shell" />
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
-  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux" />
+#### Languages
+<p>
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript" />
+  <img src="https://img.shields.io/badge/Shell_Script-121011?style=flat-square&logo=gnu-bash&logoColor=white" alt="Shell" />
+  <img src="https://img.shields.io/badge/Lua-2C2D72?style=flat-square&logo=lua&logoColor=white" alt="Lua" />
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" alt="HTML5" />
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white" alt="CSS3" />
 </p>
 
-```zsh
- rheatin@workstation:~ 
- ❯ curl -s https://api.github.com/users/rheatin/telemetry
-```
+#### Ecosystem & Workflow
+<p>
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker" />
+  <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" alt="Git" />
+  <img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black" alt="Linux" />
+  <img src="https://img.shields.io/badge/macOS-000000?style=flat-square&logo=apple&logoColor=white" alt="macOS" />
+  <img src="https://img.shields.io/badge/VS_Code-007ACC?style=flat-square&logo=visual-studio-code&logoColor=white" alt="VS Code" />
+</p>
 
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=rheatin&show_icons=true&theme=terminal&hide_border=false&border_color=00FF66&bg_color=0d1117&text_color=00FF66&icon_color=00FF66&title_color=00FF66" alt="Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=rheatin&layout=compact&theme=terminal&hide_border=false&border_color=00FF66&bg_color=0d1117&text_color=00FF66&title_color=00FF66" alt="Top Languages" />
 </div>
 
-<br/>
+---
+
+### ✦ Activity & Insights
 
 <div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=rheatin&theme=terminal&hide_border=false&border=00FF66&background=0d1117&stroke=00FF66&ring=00FF66&fire=00FF66&currStreakLabel=00FF66" alt="Streak" />
+
+  <img src="https://github-readme-stats.vercel.app/api?username=rheatin&show_icons=true&theme=tokyonight&hide_border=true&bg_color=00000000" alt="GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=rheatin&layout=compact&theme=tokyonight&hide_border=true&bg_color=00000000" alt="Top Languages" />
+
+  <br/>
+
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=rheatin&theme=tokyonight&hide_border=true&background=00000000" alt="GitHub Streak" />
+
 </div>
 
-<br/>
+---
 
-```zsh
- rheatin@workstation:~ 
- ❯ echo "Thanks for dropping by! Happy hacking 👾"
-```
+<div align="center">
+  <sub>Designed with simplicity in mind · © Char ONE</sub>
+</div>

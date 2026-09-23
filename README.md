@@ -1,68 +1,30 @@
 <div align="center">
 
-  <h1>Hi, I'm <span style="color: #6366f1;">Char ONE</span> 👋</h1>
+  <!-- 3D 悬浮胶囊渐变头图 -->
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=220&section=header&text=Char%20ONE&fontSize=52&fontAlignY=38&animation=fadeIn&desc=Code%20%7C%20Craft%20%7C%20Create&descAlignY=58&descSize=20" width="100%" alt="Header" />
 
+  <!-- 霓虹彩色渐变动态打字机 -->
   <a href="https://github.com/rheatin">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=16&duration=3200&pause=1200&color=94A3B8&center=true&vCenter=true&width=500&height=40&lines=Software+Engineer+%26+Builder;Crafting+clean%2C+reliable+software;Exploring+new+technologies+%26+ideas" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3000&pause=1000&color=F38BA8&center=true&vCenter=true&multiline=true&width=500&height=50&lines=%E2%9C%A8+Turning+ideas+into+reality;%F0%9F%9A%80+Always+building%2C+always+exploring;%F0%9F%8E%A8+Designing+cool+stuff+with+code" alt="Typing SVG" />
   </a>
-
-  <p>
-    Focused on building thoughtful, performant tools and systems.
-  </p>
-
-  <p>
-    <a href="https://github.com/rheatin">
-      <img src="https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white" alt="GitHub" />
-    </a>
-  </p>
-
-</div>
-
----
-
-### ✦ Tech & Tools
-
-<div align="center">
-
-#### Languages
-<p>
-  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript" />
-  <img src="https://img.shields.io/badge/Shell_Script-121011?style=flat-square&logo=gnu-bash&logoColor=white" alt="Shell" />
-  <img src="https://img.shields.io/badge/Lua-2C2D72?style=flat-square&logo=lua&logoColor=white" alt="Lua" />
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" alt="HTML5" />
-  <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white" alt="CSS3" />
-</p>
-
-#### Ecosystem & Workflow
-<p>
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker" />
-  <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" alt="Git" />
-  <img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black" alt="Linux" />
-  <img src="https://img.shields.io/badge/macOS-000000?style=flat-square&logo=apple&logoColor=white" alt="macOS" />
-  <img src="https://img.shields.io/badge/VS_Code-007ACC?style=flat-square&logo=visual-studio-code&logoColor=white" alt="VS Code" />
-</p>
-
-</div>
-
----
-
-### ✦ Activity & Insights
-
-<div align="center">
-
-  <img src="https://github-readme-stats.vercel.app/api?username=rheatin&show_icons=true&theme=tokyonight&hide_border=true&bg_color=00000000" alt="GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=rheatin&layout=compact&theme=tokyonight&hide_border=true&bg_color=00000000" alt="Top Languages" />
 
   <br/>
 
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=rheatin&theme=tokyonight&hide_border=true&background=00000000" alt="GitHub Streak" />
+  <!-- 动态波浪 GitHub Activity 走势图 -->
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=rheatin&theme=react-dark&bg_color=0d1117&color=61dafb&line=a855f7&point=ec4899&area=true&hide_border=true" width="95%" alt="Activity Graph" />
 
-</div>
+  <br/><br/>
 
----
+  <!-- 炫彩渐变微胶囊徽章 -->
+  <p>
+    <img src="https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue" alt="Python" />
+    <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
+    <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
+    <img src="https://img.shields.io/badge/macOS-000000?style=for-the-badge&logo=apple&logoColor=white" alt="macOS" />
+    <img src="https://img.shields.io/badge/Neovim-57A143?style=for-the-badge&logo=neovim&logoColor=white" alt="Neovim" />
+  </p>
 
-<div align="center">
-  <sub>Designed with simplicity in mind · © Char ONE</sub>
+  <!-- 底部渐变波浪收尾 -->
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer" width="100%" alt="Footer" />
+
 </div>

@@ -1,0 +1,61 @@
+name: Refresh streak card
+
+# 让 README 中间的 assets/streak.svg 保持最新：
+# 定时从 streak-stats 拉取实时卡片，内容变化才提交。
+on:
+  schedule:
+    - cron: "23 */6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh-streak
+  cancel-in-progress: true
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Fetch live streak card
+        run: |
+          set -euo pipefail
+          # theme/background/hide_border 必须与 assets/streak.svg 当前样式保持一致，
+          # 保证每次刷新只改动数字和日期，不改变卡片外观。
+          url="https://streak-stats.demolab.com?user=rheatin&theme=radical&background=0d1117&hide_border=true&cache_bust=$(date +%s)"
+          tmp="$(mktemp)"
+          ok=0
+          for attempt in 1 2 3 4 5; do
+            if curl -fsSL --max-time 30 --retry 2 --retry-all-errors "$url" -o "$tmp" \
+              && grep -q "<svg" "$tmp" \
+              && grep -q "Total Contributions" "$tmp"; then
+              ok=1
+              break
+            fi
+            sleep $((attempt * 10))
+          done
+          if [ "$ok" -ne 1 ]; then
+            echo "::warning::streak-stats unavailable, keeping the current card"
+            exit 0
+          fi
+          cp "$tmp" assets/streak.svg
+
+      - name: Commit if changed
+        run: |
+          set -euo pipefail
+          if git diff --quiet -- assets/streak.svg; then
+            echo "card is already up to date"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/streak.svg
+          git commit -m "chore: refresh streak card"
+          for attempt in 1 2 3; do
+            git push && exit 0
+            git pull --rebase --autostash origin "${GITHUB_REF_NAME}"
+          done
+          exit 1

@@ -10,7 +10,7 @@
 
   <br/>
 
-  <!-- 实时提交火苗 Streak -->
+  <!-- 实时提交火苗 Streak (GitHub Actions 每 6 小时自动刷新 assets/streak.svg) -->
   <p align="center">
     <img src="./assets/streak.svg" alt="GitHub Streak" />
   </p>
